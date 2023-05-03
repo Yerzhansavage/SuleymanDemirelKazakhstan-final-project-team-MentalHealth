@@ -13,10 +13,6 @@ include "header.php";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
-        #faq {
-  background-color: #59aad3;background: linear-gradient(#59aad3, #cecfdb);
-  padding: 100px 0;
-}
 
 #faq h2 {
   font-size: 48px;

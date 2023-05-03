@@ -39,28 +39,6 @@ include "header.php";
             color: #fafafa;
         }
 
-        .navbar-nav {
-            display: flex;
-            align-items: center;
-        }
-
-        .nav-item {
-            margin-right: 1rem;
-        }
-
-        .nav-link {
-            color: #fff;
-            text-decoration: none;
-            font-size: 1rem;
-        }
-
-        .profile {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background-color: #fff;
-        }
-
         @media (max-width: 767px) {
             .soft-blue {
                 width: 60vw;
