@@ -1,3 +1,6 @@
+<?php
+include "header.php";
+?>
 <!DOCTYPE html>
 <html lang="kz">
   <head>
@@ -119,66 +122,7 @@
   </head>
   <body>
     <div style="
-    background: linear-gradient(#59aad3, #dbe0e0);
-    background-color: #59aad3;
   ">
-        <div class="d-flex justify-content-center align-items-center " >
-            <div class="mx-2 mx-md-5 mb-0 p-2 p-md-5 text-center">
-              <nav class="navbar navbar-expand-lg">
-                <a class="navbar-brand mx-3 mx-md-5" href="Main2.html">
-                  <img
-                    src="image 1.png"
-                    alt="Logo"
-                    width="120"
-                    height="120"
-                    class="d-inline-block align-middle"
-                  />
-                </a>
-                <button
-                  class="navbar-toggler"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#navbarNav"
-                  aria-controls="navbarNav"
-                  aria-expanded="false"
-                  aria-label="Toggle navigation"
-                >
-                  <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNav">
-                  <ul class="navbar-nav">
-                    <li class="nav-item my-2 mx-4 my-lg-0">
-                      <a class="nav-link" href="test.html">Біз туралы</a>
-                    </li>
-                    <li class="nav-item my-2 mx-4 my-lg-0">
-                      <a class="nav-link" href="">Сұрақ жауап</a>
-                    </li>
-                
-                    <li class="nav-item my-2 mx-4 my-lg-0">
-                      <a class="nav-link" href="">Мақалалар</a>
-                    </li>
-                    <li class="nav-item my-2 mx-4 my-lg-0">
-                      <a class="nav-link" href="">Көмек</a>
-                    </li>
-                    <li class="nav-item my-2 mx-4 my-lg-0">
-                      <a class="nav-link" href="">
-                        <img
-                          src="image 4.png"
-                          alt="Profile"
-                          width="50"
-                          height="50"
-                          class="rounded-circle"
-                        />
-                        <p>Тіркелу</p>
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </nav>
-            </div>
-            
-          </div>
-
         <div class="jumbotron  " style=" background-color:transparent; margin-bottom: 10rem; ">
             <div class="container ">
               <h1 class="display-1 ml-5">Мақалалар</h1>

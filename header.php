@@ -5,7 +5,7 @@ session_start();
     style="
         background: linear-gradient(#59aad3, #cecfdb);
         background-color: #59aad3;
-        height: 100vh;
+        min-height: 100vh;
       "
 >
     <div class="d-flex justify-content-center align-items-center">
@@ -34,19 +34,19 @@ session_start();
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="aboutus.html">Біз туралы</a>
+                            <a class="nav-link" href="aboutus.php">Біз туралы</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="test.html">Сұрақ жауап</a>
+                            <a class="nav-link" href="question-answer.php">Сұрақ жауап</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="SurakZhauap.html">FAQ</a>
+                            <a class="nav-link" href="SurakZhauap.php">FAQ</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="articles.html">Мақалалар</a>
+                            <a class="nav-link" href="articles.php">Мақалалар</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="help.html">Көмек</a>
+                            <a class="nav-link" href="help.php">Көмек</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
                         </li>
@@ -58,7 +58,10 @@ session_start();
                         }?>
 
                         <?php if (isset($_SESSION['email'])) { ?>
-                        <img src="img/image%204.png">
+
+                        <a class="nav-link"  href="profile.php">
+                         <img src="img/image%204.png">
+                        </a>
                         <?php } ?>
                             <?php if (isset($_SESSION['firstname'])) { ?>
                             <li class="nav-item my-1 mx-2 my-lg-0"> </li>
@@ -74,3 +77,29 @@ session_start();
             </nav>
         </div>
     </div>
+
+    <style>
+
+        .navbar-nav {
+            display: flex;
+            align-items: center;
+        }
+
+        .nav-item {
+            margin-right: 1rem;
+        }
+
+        .nav-link {
+            color: #fff;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+
+        .profile {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: #fff;
+        }
+
+    </style>
