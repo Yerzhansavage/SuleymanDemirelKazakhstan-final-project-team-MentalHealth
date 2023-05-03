@@ -10,16 +10,13 @@ $username = "root";
 $db_password = "";
 $db_name = "project";
 
-// Create connection
 $conn = new mysqli($servername, $username, $db_password, $db_name);
 
-// Check connection
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
 
-// Проверяем, были ли переданы данные для авторизации
 if ($firstname && $password && $lastname && $email) {
     $password = password_hash($password, PASSWORD_BCRYPT);
     if (!$password) {
@@ -48,16 +45,3 @@ if ($firstname && $password && $lastname && $email) {
 
 
 }
-//
-//    if ($password == 'mypassword') {
-//        session_start();
-//        $_SESSION['username'] = $username;
-//        header('Location: /dashboard.php'); // перенаправляем на страницу dashboard
-//    } else {
-//        // Неверный пароль
-//        header('Location: /login.php?error=invalid_password'); // перенаправляем на страницу login с ошибкой
-//    }
-//} else {
-//    // Данные для авторизации не были переданы
-//    header('Location: /login.php?error=missing_credentials'); // перенаправляем на страницу login с ошибкой
-//}
