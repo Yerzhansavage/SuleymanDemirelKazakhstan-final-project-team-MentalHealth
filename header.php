@@ -49,17 +49,6 @@ session_start();
                             <a class="nav-link" href="help.html">Көмек</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <!--                            <a class="nav-link" href="#">-->
-                            <!--                                <img-->
-                            <!--                                        src="./img/image%204.png"-->
-                            <!--                                        alt="Profile"-->
-                            <!--                                        width="50"-->
-                            <!--                                        height="50"-->
-                            <!--                                        class="rounded-circle"-->
-                            <!--                                />-->
-                            <!--                                <p>Тіркелу </p>-->
-                            <!--                            </a>-->
-                        </li>
                         </li>
                         <?php if (!isset($_SESSION['firstname'])) {?>
                             <li class="nav-item my-2 mx-4 my-lg-0"><a class="nav-link" href="signup.html">Тіркелу</a>
