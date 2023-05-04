@@ -37,11 +37,9 @@ session_start();
                             <a class="nav-link" href="aboutus.php">Біз туралы</a>
                         </li>
                         <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="question-answer.php">Сұрақ жауап</a>
+                            <a class="nav-link" href="SurakZhauap.php">Сұрақ жауап</a>
                         </li>
-                        <li class="nav-item my-2 mx-4 my-lg-0">
-                            <a class="nav-link" href="SurakZhauap.php">FAQ</a>
-                        </li>
+
                         <li class="nav-item my-2 mx-4 my-lg-0">
                             <a class="nav-link" href="articles.php">Мақалалар</a>
                         </li>

@@ -60,6 +60,10 @@ include "header.php";
             margin-bottom: 10px;
             margin-left: 10px;
         }
+.table-responsive {
+    padding-right: 100px;
+    margin-right: 100px;
+}
 
 
     </style>
