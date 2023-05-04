@@ -165,7 +165,7 @@ include "header.php";
             </div>
         </div>
         <div class="mt-6">
-            <a href="link">
+            <a href="question-answer.php">
                 <button
                         class="btn m-md-4 px-5 py-2 text-white"
                         style="

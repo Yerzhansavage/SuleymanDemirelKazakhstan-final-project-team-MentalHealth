@@ -24,7 +24,7 @@ if (empty($_SESSION)) {
       <div class="col-lg-4">
         <div class="card mb-4">
           <div class="card-body text-center">
-            <img src="img/image%204.png" alt="avatar"
+            <img src="img/user-iconb.png" alt="avatar"
                  class="rounded-circle img-fluid" style="width: 150px;">
             <h5><?php echo $_SESSION['firstname']?></h5>
             <div class="d-flex justify-content-center mb-2">
@@ -67,10 +67,23 @@ if (empty($_SESSION)) {
                   $score = $user['score'];
                   if($score > 5) echo 'У тебя депрессия'
                   ?>
+
               </div>
             </div>
             </div>
           </div>
+          <div class="row">
+
+              <div class="col-lg-8">
+                  <div class="card mb-4">
+                      <div class="card-body">
+                          <div class="row">
+                              <h6>не грусти брат,shit happens</h6>
+                          </div>
+                      </div>
+                  </div>
+
+              </div>
         </div>
       </div>
 
