@@ -35,4 +35,4 @@ if ($isSuccess){
     header('location:profile.php');
 }
 else
-    header('location:test.php');
+    header('location:question-answer.php');

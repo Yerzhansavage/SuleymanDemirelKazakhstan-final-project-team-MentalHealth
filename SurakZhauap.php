@@ -95,6 +95,51 @@ include "header.php";
               <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                 <div class="card-body">
                   Біздің қайтару саясатыңыз алу күнінен кейін 30 күн ішінде кез келген элементті толық алдын ала алуға мүмкін
-      
+      </div>
+                  <footer>
+                      <p>Свяжитесь с нами: +7 (708) 157-53-31</p>
+                      <ul class="social-icons">
+                          <li><a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a></li>
+                          <li><a href="https://twitter.com/"><i class="fab fa-twitter"></i></a></li>
+                          <li><a href="https://www.instagram.com/aaizen__/"><i class="fab fa-instagram"></i></a></li>
+                      </ul>
+                  </footer>
+                  <style>
+                      @media (max-width: 767px) {
+                          .soft-blue {
+                              width: 60vw;
+                          }
+                      footer {
+                          background-color: #7d7878;
+                          padding: 10px;
+                          text-align: center;
+                          font-size: 14px;
+                      }
+
+                      .social-icons {
+                          list-style-type: none;
+                          margin: 0;
+                          padding: 0;
+                      }
+
+                      .social-icons li {
+                          display: inline-block;
+                          margin: 0 10px;
+                      }
+
+                      .social-icons li a {
+                          color: #000;
+                          text-decoration: none;
+                      }
+
+                      .social-icons li a:hover {
+                          color: #666;
+                      }
+
+                      .social-icons li a i {
+                          font-size: 20px;
+                      }
+
+                  </style>
 </body>
 </html>
