@@ -77,7 +77,10 @@ session_start();
     </div>
 
     <style>
-
+        @media (max-width: 767px) {
+            .soft-blue {
+                width: 60vw;
+            }
         .navbar-nav {
             display: flex;
             align-items: center;

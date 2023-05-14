@@ -12,6 +12,10 @@ include "header.php";
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <style>
+        @media (max-width: 767px) {
+            .soft-blue {
+                width: 60vw;
+            }
         #help {
             padding: 0px 50px 50px 50px;
         }
